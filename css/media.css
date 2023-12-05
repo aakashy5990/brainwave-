@@ -1,0 +1,224 @@
+@media screen and (max-width:1003px) {
+    .card_parents {
+        flex-wrap: wrap;
+    }
+    .about_contact .about_btn{
+        width: 100%;
+        max-width: 55%;
+    }
+}
+
+@media screen and (min-width:1004px){
+    .card_parents {
+        margin: 0 0.5rem;
+    }
+}
+@media (min-width:685px) and (max-width:1028px) {
+    .footer_main {
+        margin: 0 auto;
+        max-width: 59%;
+    }
+    .social,.letter{
+        margin-top: 2rem;
+    }
+    .letter input {
+        height: 40px;
+        padding-left: 5px;
+    }
+    .letter h2 {
+        font-size: 1.3rem;
+    }
+    .social h2 {
+        font-size: 1.3rem;
+    }
+    .location h2 {
+        font-size: 1.3rem;
+    }
+    .menu h2 {
+        font-size: 1.3rem;
+    }
+    :is(.portfolio_pic1,.portfolio_pic2,.portfolio_pic3,.portfolio_pic4,.portfolio_pic5,.portfolio_pic6) h2 {
+        font-size: 20px;
+    }
+
+    
+}
+
+@media (min-width:637px) and (max-width:787px) {
+    .skill-bar_section {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+@media (min-width:751px) and (max-width:885px) {
+    .header_intro_first_child h1 {
+        font-size: 2.7rem;
+        font-weight: bold;
+    }
+    .header_content {
+        margin: 0 1rem 0 4rem;
+    }
+}
+/* tablet and phone size  */
+
+@media screen and (max-width:750px) {
+    .nav_second_child{
+        display: none;
+        visibility: hidden;
+    }   
+    .header_intro_first_child h1 {
+        font-size: 2.5rem;
+    }
+    .header_intro_first_child .header_content .header_btn {
+        padding: 7px 15px;
+    }
+    .header_intro_first_child .header_content a {
+        margin-top: 0.8rem;
+    }
+    .header_intro_first_child {
+        margin: 2rem auto;
+    }
+    .header_content {
+        max-width: none;
+        margin: 0 0 0 2rem;
+    }
+    .about_navbar {
+        display: none;
+    }
+    .login_main_section {
+        display: block;
+    }
+    .logo_name h2{
+        font-size: 1.3rem;
+    }
+    .logo img{
+        width: 30%;
+    }
+
+}
+
+@media screen and (min-width:751px) {
+    .menu_bar {
+        display: none;
+    }
+}
+
+@media screen and (max-width:635px){
+    .header_intro_first_child h1 {
+        font-size: 2rem;
+    }
+    .about_contact h1{
+        font-size: 1.5rem;
+    }
+    .about_parents{
+        padding: 2rem 1rem;
+    }
+    .about_parents p{
+        line-height: 1.4rem;
+        word-spacing: 3px;
+        font-size: 1rem;
+    }
+    .about_contact h1::after {
+        left: 177px;
+        transform: translate(0px,14px);
+    }
+    
+}
+@media screen and (max-width:685px){
+    :is(.portfolio_pic1,.portfolio_pic2,.portfolio_pic3,.portfolio_pic4,.portfolio_pic5,.portfolio_pic6) h2 {
+        font-size: 17px;
+    }
+}
+
+/* mobile width  */
+@media screen and (max-width:600px){
+    .header_intro_perents {
+        display: inline-block;
+    }
+    .header_intro_first_child p {
+        padding: .9rem 0;
+    }
+    .about_parents {
+        display: inline-block;
+    }
+    .about_contact {
+        row-gap: 1.5rem;
+        letter-spacing: 1px;
+        line-height: 30px;
+        padding: 0 1rem;
+    }
+    .about_contact h1::after {
+        left: 182px;
+        transform: translate(0px,11px);
+    }
+    .portfolio_collection {
+        display: inline-block;
+    }
+    .portfolio_main_collection {
+        float: none;
+    }
+    .portfolio_main_collection {
+        max-width: none;
+    }
+    .portfolio_main_collection2 {
+        max-width: none;
+    }
+    .about_contact .about_btn{
+        width: 50%;
+    }
+    .skill-bar_section {
+        display: inline-block;
+        width: 100%;
+        padding: 1rem 1rem 2rem 1rem;
+    }
+    .container{
+        margin-bottom: 1.5rem;
+    }
+    .skill_header {
+        margin-bottom: 2rem;
+    }
+    .card_parents {
+        display: inline-block;
+        margin: 0 auto;
+    }
+    .card_one{
+        width: 100%;
+        margin: 0 auto;
+        max-width: 80%;
+        margin-bottom: .8rem;
+    }
+    .card_second{
+        width: 100%;
+        max-width: 80%;
+        margin: 0 auto;
+        margin-bottom: .8rem;
+    }
+    .card_third{
+        margin: 0 auto;
+        width: 100%;
+        max-width: 80%;
+        margin-bottom: .8rem;
+    }
+    .card_fourth{
+        margin: 0 auto;
+        width: 100%;
+        max-width: 80%;
+        margin-bottom: .8rem;
+    }
+    .menu{
+        margin-bottom: 2rem;
+    }
+    .letter {
+        width: 45%;
+    }
+    .social{
+        margin-bottom: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 377px){
+    .about_contact .about_btn {
+        width: 65%;
+    }
+}
